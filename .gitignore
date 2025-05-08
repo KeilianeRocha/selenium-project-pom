@@ -27,8 +27,6 @@ Thumbs.db
 
 # Meus rascunhos
 tests/test_sample.py
-tests/test_chat.py
-tests/test_resultaso.py
 
 # Aquivos de teste
 tests/__init__.py
