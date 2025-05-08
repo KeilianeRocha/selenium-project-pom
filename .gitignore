@@ -1,0 +1,37 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Caches e arquivos temporários
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Relatórios
+/results/
+*.xml
+*.html
+
+# Screenshots
+/screenshots/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Meus rascunhos
+tests/test_sample.py
+tests/test_chat.py
+tests/test_resultaso.py
+
+# Aquivos de teste
+tests/__init__.py
+
+# Outros
+requirements.txt

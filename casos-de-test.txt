@@ -1,0 +1,12 @@
+Login com usuário e senha válidos [done!]
+- Verificar se foi para a página de Products ✅
+
+Adição de produtos ao carrinho [done!]
+- Adicionar um produto ao carrinho e verificar que foi adicionado corretamente ✅
+- Voltar e Adicionar mais um produto ✅
+
+Fazer uma compra com 1 produto no carrinho [to do]
+- Verificar que a compra foi feita com sucesso ✅
+
+Fazer uma compra com 2 produtos no carrinho [to do]
+- Verificar que a compra foi feita com sucesso ⚠️
