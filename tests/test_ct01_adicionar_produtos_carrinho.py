@@ -1,9 +1,10 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+#from selenium.webdriver.support import expected_conditions as EC
 import conftest
 import pytest
 import time
+from pages.login_page import LoginPage
 
 
 """
@@ -34,10 +35,14 @@ class TestCT01:
     def test_ct01_adicionar_produtos_carrinho(self):
         # Fazendo o login
         driver = conftest.driver
-        driver.find_element(By.ID, "user-name").send_keys("visual_user")
+        login_page = LoginPage()
+
+        login_page.fazer_login("standard_user", "secret_sauce")
+
+        """driver.find_element(By.ID, "user-name").send_keys("standard_user")
         driver.find_element(By.ID, "password").send_keys("secret_sauce")
         driver.find_element(By.ID, "login-button").click()
-
+"""
         """# 2. Fecha pop-ups (se existirem)
         try:
             WebDriverWait(driver, 3).until(
