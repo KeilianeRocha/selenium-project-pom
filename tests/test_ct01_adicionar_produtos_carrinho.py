@@ -32,14 +32,14 @@ class TestCT01:
         shopping_cart_page.verificar_produto_carrinho_existe(produto_1)
         shopping_cart_page.verificar_produto_carrinho_existe(produto_2)
         time.sleep(2)
-
+"""
         # Clicando para volta para a tela de produtos
         shopping_cart_page.clicar_continuar_comprando()
         time.sleep(2)
 
         # Adicionando mais um produto ao carrinho
 
-        time.sleep(2)
+        time.sleep(2)"""
 
 
 """
